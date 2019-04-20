@@ -1,7 +1,7 @@
 # FriendFinder
 ## Super Friend Finder
 
-Have you always wondered what type of superhero or supervillian that could be your friend?
+Have you always wondered what type of superhero or supervillian who best matches up with you?
 Well now you can find out!
 
 This application will create a super match just for you.
