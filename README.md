@@ -1,5 +1,5 @@
 # FriendFinder
-Super Friend Finder
+## Super Friend Finder
 
 Have you always wondered what type of superhero or supervillian that could be your friend?
 Well now you can find out!
