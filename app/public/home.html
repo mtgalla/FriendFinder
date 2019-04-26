@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>SFF</title>
-
-  <!-- Added link to the jQuery Library -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Added link to the Bootstrap and jQuery Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
-  <!-- Added a link to Bootstrap-->
+  <!-- CSS library links-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -19,25 +19,20 @@
 
 </head>
 <body>
-
-<!--Delete all between script to reset-->
-
-   
   <div class="container">
 
-<div class="jumbotron bg-danger">
+<div class="jumbotron bg-primary text-danger">
   <h1 class="text-center"><span class="fas fa-mask"></span> Super Friend Finder</h1>
   <hr>
-  <h2 class="text-center">Answer a few basic questions.</h2>
+  <h2 class="text-center"><strong>Answer a few basic questions.</strong></h2>
+  <h2 class="text-center">Find out which superhero wants to be your friend.</h2>
   <br>
 
   <div class="text-center">
     <a href="/survey"><button class="btn btn-lg btn-danger"><span class="fa fa-list-alt"></span> Go To Survey</button></a>
   </div>
-</div>
 
-<div>
-  <a href="/api/friends">API Friends List</a>
+    <p><a href="/api/friends" class="text-danger"><strong>API Friends List<strong></a></p>
 </div>
 
 </div>

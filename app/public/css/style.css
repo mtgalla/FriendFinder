@@ -3,3 +3,8 @@ body{
   background-repeat: no-repeat no-repeat;
   background-size: 100%;
   }
+
+  .jumbotron{
+  opacity: 0.9;
+
+  }
