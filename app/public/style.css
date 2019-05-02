@@ -1,7 +1,7 @@
 body{
   background: url("../../data/images/Marvel.png");
-  background-repeat: no-repeat no-repeat;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   .jumbotron{
